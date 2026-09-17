@@ -1,0 +1,6 @@
+2026-09-10 16:40:43.389870+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "TEXT_PROMPT CHARACTER VARYING(2000)": "U&'SECTION I: INTRODUCTION\\000a\\000aThe possibility of realizing a Non-invasive ... (5219)"; SQL statement:
+insert into speech_history (created_at,is_favorite,language,text_prompt,user_email,voice,id) values (?,?,?,?,?,?,default) [22001-224]
+2026-09-10 16:40:51.160226+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "TEXT_PROMPT CHARACTER VARYING(2000)": "U&'SECTION I: INTRODUCTION\\000a\\000aThe possibility of realizing a Non-invasive ... (5219)"; SQL statement:
+insert into speech_history (created_at,is_favorite,language,text_prompt,user_email,voice,id) values (?,?,?,?,?,?,default) [22001-224]
